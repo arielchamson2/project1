@@ -13,7 +13,7 @@ import Bien from './Bien.js';
 const App = () =>(
     <Router>
         <nav>
-            <div className="navLeft">TriviaBox</div>
+            <div className="navLeft">TriviaBox2</div>
             <div className="navRight"><Link className="boton" to="/">Login</Link></div>
         </nav>
         <Switch>
