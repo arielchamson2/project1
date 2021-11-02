@@ -1,0 +1,103 @@
+//@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+$verde : #1FCA9C;
+$tituloFont : 'Poppins-Bold.ttf';
+$subtituloFont : 'Poppins-SemiBold.ttf';
+$botonColor : #16B58D;
+
+@font-face {
+  font-family: 'Poppins-SemiBold.ttf';
+  src: url('fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold.ttf';
+  src: url('fonts/Poppins-Bold.ttf');
+}
+
+
+nav{
+    font-family: $subtituloFont;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    .navLeft{
+      width: 80%;
+      text-align: left;
+    }
+    .navRight{
+      width: 20%;
+      text-align: right;
+    }
+}
+body {
+  margin: 0;
+  background-color: $verde;
+  text-align: center;
+  .titulo{
+    font-family: $tituloFont;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    letter-spacing: -5px;
+  }
+  .subtitulo{
+    font-family: $subtituloFont;
+    font-weight: 400px;
+    font-size: 16px;
+    color: white;
+  }
+  .input{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    margin: 10px;
+  }
+  .boton{
+    margin-top: 10px;
+    color: white;
+    background-color: #16B58D;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 35px;
+    width: 150px;
+    font-family: $subtituloFont;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .boton:hover{
+    cursor: hand;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #189A79;
+  }
+}
+
+h2{
+  font-family: $subtituloFont;
+  color: white;
+
+}
+footer{
+  font-family: $subtituloFont;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 11px;
+}
+
+.bodyMal{
+  background-color: #801FCA;
+}
